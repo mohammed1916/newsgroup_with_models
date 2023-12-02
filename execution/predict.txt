@@ -1,0 +1,36 @@
+python3.10 /Users/mohammedabdullah/Documents/Development/python/newsgroup/predict.py """ RSA is a crypto system which is asymmetric, or public-key.  This means
+ that there are two different, related keys: one to encrypt and one to
+ decrypt.  Because one cannot (reasonably) be derived from the other,
+ you may publish your encryption, or public key widely and keep your
+ decryption, or private key to yourself.  Anyone can use your public
+ key to encrypt a message, but only you hold the private key needed to
+ decrypt it.  (Note that the "message" sent with RSA is normally just
+ the DES key to the real message. (See What is DES?)""" --model svm
+model/svm/svm_model.joblib
+The text belongs to 20 Newsgroups category: sci.crypt
+
+
+python3.10 predict.py --model svm """For an upcoming project I want to use 4 Megs of DRAM configured as two 2
+Meg banks of 16 bit data.  I was wondering if anyone out there knows of a
+DRAM controller which will handle refreshing the data.  It's ok if the
+controller doesn't handle bank switching - that part is easy."""
+model/svm/svm_model.joblib
+The text belongs to 20 Newsgroups category: comp.sys.ibm.pc.hardware
+
+
+
+python3.10 predict.py --model svm """    Despite a widespread belief to the contrary, the Saturn V blueprints
+    have not been lost. They are kept at Marshall Space Flight Center on
+    microfilm.
+
+    The problem in re-creating the Saturn V is not finding the drawings, it
+    is finding vendors who can supply mid-1960's vintage hardware (like
+    guidance system components), and the fact that the launch pads and VAB
+    have been converted to Space Shuttle use, so you have no place to launch
+    from.
+
+    By the time you redesign to accommodate available hardware and re-modify
+    the launch pads, you may as well have started from scratch with a clean
+    sheet design."""
+model/svm/svm_model.joblib
+The text belongs to 20 Newsgroups category: sci.space

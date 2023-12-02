@@ -1,0 +1,64 @@
+--k=5
+A:\Dev\FDS\newsgroup>C:/Users/arrah/AppData/Local/Microsoft/WindowsApps/python3.9.exe a:/Dev/FDS/newsgroup/knn_train.py
+Accuracy: 0.13
+
+Classification Report:
+                           precision    recall  f1-score   support
+
+             alt.atheism       0.07      0.21      0.11       151
+           comp.graphics       0.73      0.05      0.10       202
+ comp.os.ms-windows.misc       0.06      0.97      0.12       195
+comp.sys.ibm.pc.hardware       0.85      0.06      0.11       183
+   comp.sys.mac.hardware       1.00      0.07      0.13       205
+          comp.windows.x       0.96      0.12      0.21       215
+            misc.forsale       0.73      0.06      0.11       193
+               rec.autos       0.60      0.03      0.06       196
+         rec.motorcycles       0.81      0.08      0.14       168
+      rec.sport.baseball       0.86      0.12      0.21       211
+        rec.sport.hockey       0.93      0.14      0.24       198
+               sci.crypt       0.92      0.05      0.10       201
+         sci.electronics       0.79      0.05      0.10       202
+                 sci.med       0.88      0.22      0.35       194
+               sci.space       1.00      0.05      0.09       189
+  soc.religion.christian       0.77      0.05      0.09       202
+      talk.politics.guns       1.00      0.02      0.04       188
+   talk.politics.mideast       1.00      0.15      0.26       182
+      talk.politics.misc       0.93      0.08      0.15       159
+      talk.religion.misc       0.75      0.04      0.08       136
+
+                accuracy                           0.13      3770
+               macro avg       0.78      0.13      0.14      3770
+            weighted avg       0.79      0.13      0.14      3770
+
+
+
+A:\Dev\FDS\newsgroup>C:/Users/arrah/AppData/Local/Microsoft/WindowsApps/python3.9.exe a:/Dev/FDS/newsgroup/knn_train.py
+Accuracy: 0.11
+
+Classification Report:
+                           precision    recall  f1-score   support
+
+             alt.atheism       0.04      0.95      0.08       151
+           comp.graphics       0.64      0.07      0.13       202
+ comp.os.ms-windows.misc       0.61      0.19      0.30       195
+comp.sys.ibm.pc.hardware       0.79      0.06      0.11       183
+   comp.sys.mac.hardware       0.93      0.07      0.13       205
+          comp.windows.x       0.96      0.12      0.21       215
+            misc.forsale       0.85      0.06      0.11       193
+               rec.autos       0.55      0.03      0.06       196
+         rec.motorcycles       0.68      0.08      0.14       168
+      rec.sport.baseball       1.00      0.05      0.09       211
+        rec.sport.hockey       0.93      0.14      0.24       198
+               sci.crypt       1.00      0.05      0.09       201
+         sci.electronics       0.85      0.05      0.10       202
+                 sci.med       1.00      0.11      0.20       194
+               sci.space       1.00      0.04      0.08       189
+  soc.religion.christian       0.75      0.04      0.08       202
+      talk.politics.guns       1.00      0.02      0.04       188
+   talk.politics.mideast       1.00      0.15      0.26       182
+      talk.politics.misc       0.93      0.08      0.15       159
+      talk.religion.misc       0.67      0.04      0.08       136
+
+                accuracy                           0.11      3770
+               macro avg       0.81      0.12      0.13      3770
+            weighted avg       0.82      0.11      0.14      3770
